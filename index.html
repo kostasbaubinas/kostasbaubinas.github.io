@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Tech Blog" class="logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href=""><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> VIDEOS</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> SOCIAL MEDIA</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span> TECH</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> BUSINESS</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1>Hi, I'm Andrius</h1>
+                <p>I’m a technology entrepreneur, activist, and writer focused on making the tech world more humane and ethical. Having created Internet technologies for two decades, I’ve become obsessed with the way technology shapes and transforms society, media, government and culture.</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <div class="row">
+            <div class="top-stories col-xs-12 col-lg-8">
+                <div class="page-header">
+                    <h3>Top stories</h3>
+                </div>
+                <div class="row">
+                    <article class="col-xs-12 col-lg-6">
+                        <img src="images/article-1.jpg" class="img-responsive" alt="">
+                        <a href="#" data-toggle="modal" data-target="#myModal">
+                            <h4>IBM researchers made a magnet with a single atom — then stuffed digital data into it</h4>
+                        </a>
+                        <div class="text-muted">
+                            <span class="pull-left">Feb 25, 2017</span>
+                            <span class="pull-right"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> 10 people shared</span>
+                        </div>
+                    </article>
+                    <article class="col-xs-12 col-lg-6">
+                        <img src="images/article-2.png" class="img-responsive" alt="">
+                        <a href="#">
+                            <h4>The WikiLeaks Vault 7 dump proves that everything is hack target</h4>
+                        </a>
+                        <div class="text-muted">
+                            <span class="pull-left">Feb 25, 2017</span>
+                            <span class="pull-right"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> 20 people shared</span>
+                        </div>
+                    </article>
+                    <article class="col-xs-12 col-lg-6">
+                        <img src="images/article-3.jpg" class="img-responsive" alt="">
+                        <a href="#">
+                            <h4>Smartphones haven't been a luxury for a long time</h4>
+                        </a>
+                        <div class="text-muted">
+                            <span class="pull-left">Feb 24, 2017</span>
+                            <span class="pull-right"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> 3 people shared</span>
+                        </div>
+                    </article>
+                    <article class="col-xs-12 col-lg-6">
+                        <img src="images/article-4.png" class="img-responsive" alt="">
+                        <a href="#">
+                            <h4>This drone helped firefighters battle a blaze in New York City</h4>
+                        </a>
+                        <div class="text-muted">
+                            <span class="pull-left">Feb 23, 2017</span>
+                            <span class="pull-right"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> 50 people shared</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="whats-new col-xs-12 col-lg-4">
+                <div class="page-header">
+                    <h3>What's new</h3>
+                </div>
+                <article>
+                    <a href="#">
+                        <h4>A very confident Tesla launches the new Powerwall 2 in Australia</h4>
+                    </a>
+                    <p class="text-muted">Feb 25, 2017</p>
+                </article>
+                <article>
+                    <a href="#">
+                        <h4>30 of the brightest tech innovations from the UK</h4>
+                    </a>
+                    <p class="text-muted">Feb 22, 2017</p>
+                </article>
+                <article>
+                    <a href="#">
+                        <h4>Tesla Model 3 set to start production in July 2017</h4>
+                    </a>
+                    <p class="text-muted">Feb 20, 2017</p>
+                </article>
+                <button type="button" class="btn btn-default">Read more stories</button>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">Tab content 1</div>
+    <div role="tabpanel" class="tab-pane" id="profile">Tab content 2</div>
+    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+  </div>
+
+</div>
+
+        Labukas
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

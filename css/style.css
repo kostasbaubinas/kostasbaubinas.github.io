@@ -1,0 +1,32 @@
+/* Header */
+.navbar { margin-bottom: 0; }
+
+.navbar-brand { padding: 5px; }
+
+.logo {
+    height: 35px;
+    margin-right: 20px;
+}
+
+.jumbotron {
+    color: #fff;
+    background: url('../images/jumbotron.jpg') no-repeat 0 bottom;
+    background-size: cover;
+}
+
+
+/* Top stories*/
+article {
+    margin-bottom: 30px;
+}
+
+
+/* What's new */
+
+article h4 {
+    margin-bottom: 5px;
+}
+
+article .text-muted, .shared {
+    font-size: 12px;
+}
